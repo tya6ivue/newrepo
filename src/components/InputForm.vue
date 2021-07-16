@@ -8,7 +8,7 @@
       <button type="submit">Add</button>
     </form>
 
-    <ul class="tablee">
+    <ul class="ull">
       <li class="tr"></li>
       <li v-for="(todo, index) in todos" :key="index">
         {{ todo.id }}
@@ -49,11 +49,9 @@ export default {
   },
   methods: {
     abc: function () {
-      console.log("add");
       this.boolean = false;
     },
     abd: function () {
-      console.log("addeeddd");
       this.boolean = true;
     },
 
@@ -75,7 +73,7 @@ export default {
 };
 </script>
 <style scoped>
-.tablee {
+.ull {
   width: 50%;
 }
 
@@ -88,7 +86,7 @@ export default {
   color: aqua;
   border: 1px dodgerblue;
 }
-.tablee li {
+.ull li {
   list-style-type: none;
   border: 1px solid black;
   margin-right: 10px;
