@@ -1,4 +1,4 @@
-# assignment
+# project
 
 ## Project setup
 ```
